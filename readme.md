@@ -38,7 +38,7 @@ python features_propagation.py file.csv
 ```
 Our results : 
 ![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_attack.jpg)
-![alt text](![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_attack.jpg)
+![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_features.jpg)
 
 To generate features propagation graphes for multiples sample, put all csv files in the same folder and run
 ```
