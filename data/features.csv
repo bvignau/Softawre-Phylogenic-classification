@@ -1,0 +1,48 @@
+Desc;Hydra-2008;Psyb0t-2009.01;Chuck Norris-2009.12;Tsunami-2010;Aidra-2012;Carna-2012.06;Darlloz-2013;Wifatch-2014.11;Bahslite-2014.09;Remainten-2016.03;Hajime-2016.10;Mirai-2016.09;Amnesia-2017.04;BrickerBot-2017.04;IoTReaper-2017.10;VPNFilter-2018
+Syn Flood;1;1;1;1;1;0;0;0;1;1;0;1;1;0;1;0
+UDP Flood;0;1;1;1;0;0;0;0;1;1;0;1;1;0;1;0
+ICMP Flood;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+ACK Flood;0;0;1;1;1;0;0;0;1;1;0;1;1;0;1;0
+DNS Spoof;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0
+Push flood;0;0;0;1;0;0;0;0;0;1;0;1;1;0;1;0
+TCP XMAS;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0
+DNS Amplification;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0
+HTTP Flood;0;0;0;1;0;0;0;0;1;1;0;1;1;0;1;0
+CryptoMining;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0
+DNS Waterbording ;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0
+Physical DoS or Permanent DoS;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
+Data stealing;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Data exfiltration;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Man In The Middle attack;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+End point Exploit;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Firewall DoS;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+SCADA Monitoring;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Malicious trafic obfuscation;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Local network mapping;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Reverse TCP VPN;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+dictionnary password;1;1;1;1;1;0;1;1;1;1;1;0;0;0;0;0
+CVE Exploit;0;0;0;0;0;0;1;0;1;0;0;0;1;0;0;0
+Balanced dictionnary password;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0
+Multiple CVE;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+MIPS;1;1;1;1;1;1;1;1;1;1;1;1;0;0;0;1
+ARM;0;0;0;0;1;1;1;1;1;1;1;1;0;0;0;1
+targeted manufacturer;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0
+script;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
+x86/64;0;0;0;0;1;1;1;1;0;0;1;1;0;0;0;1
+handmade Hitlist;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Network class automated hitlist;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0
+Random;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1
+Stateless;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;1
+Centralised (IRC CC);1;1;1;1;1;0;1;0;0;1;0;0;1;0;0;0
+P2P (Decentralised);0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0
+dedicated protocol (Centralised CC);0;0;0;0;0;1;0;0;1;0;0;1;0;1;1;1
+binary removal;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0
+processus masquerade;0;0;0;0;0;0;0;0;0;1;1;1;0;0;1;0
+ports closing;0;0;0;1;1;0;1;1;1;0;1;1;1;0;1;0
+other botnet removal;0;0;0;0;1;0;1;1;0;0;1;1;1;0;1;0
+DGA Algorithm;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
+Anti reboot;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;1
+code's modularity or update system;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;1
+victim architecture's scan;0;0;0;0;0;0;0;0;0;1;1;1;0;0;1;1
+virutalisation evasion;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0
+Peristence;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1
