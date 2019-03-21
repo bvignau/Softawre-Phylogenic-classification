@@ -48,7 +48,7 @@ To generate features propagation graphes for multiples sample, put all csv files
 
 ## Authors
 
-* **Benjamin Vignau** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Benjamin Vignau** 
 
 
 
