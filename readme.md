@@ -38,6 +38,7 @@ python features_propagation.py file.csv
 ```
 Our results : 
 ![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_attack.jpg)
+![alt text](![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_attack.jpg)
 
 To generate features propagation graphes for multiples sample, put all csv files in the same folder and run
 ```
@@ -54,11 +55,6 @@ To generate features propagation graphes for multiples sample, put all csv files
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is available for all research and educational purpose only.
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
