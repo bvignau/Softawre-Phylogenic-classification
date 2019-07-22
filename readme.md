@@ -35,6 +35,8 @@ features families :
 
 ![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Family-features-graph.svg)
 
+![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Families-circular.svg)
+
 Phylogenic graphe : 
 
 ![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Max_Common_V4_15-dot.jpg)
