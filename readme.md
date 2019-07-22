@@ -33,7 +33,6 @@ Our results :
 
 features families : 
 
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Family-features-graph.svg)
 
 ![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Families-circular.svg)
 
