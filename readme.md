@@ -31,10 +31,19 @@ python distance_fct.py file.csv
 
 Our results : 
 
-features families : 
+features families V1: 
 
 
 ![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Families-circular.svg)
+
+Features Families V2 :
+
+Radial layout
+![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Radial.svg)
+
+Baloon Layout
+![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/circular2.svg)
+
 
 Phylogenic graphe : 
 
