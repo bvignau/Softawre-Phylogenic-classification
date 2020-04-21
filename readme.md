@@ -42,7 +42,7 @@ Goal graph, YED Version :
 
 Goal graph, dot Version :
 
-![Goal jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/goal.png)
+![Goal jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/goal.jpg)
 
 Infection graph, orhtogonal_router configuration, YED :
 
@@ -54,7 +54,7 @@ Infection graph, baloon configuration, YED :
 
 Infection graph, dot :
 
-![infection jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/infection.png)
+![infection jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/infection.jpg)
 
 
 
