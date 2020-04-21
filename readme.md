@@ -71,6 +71,9 @@ Efficiciency graph, orthogonal configuration, YED :
 ![infection jpg baloon](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/Efficiency-final.png)
 
 
+
+Efficiciency graph, balloon configuration, YED :
+
 ![infection jpg baloon](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/Efficiency-final-ballon.png)
 
 
