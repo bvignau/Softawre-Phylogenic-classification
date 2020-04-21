@@ -57,7 +57,26 @@ Infection graph, dot :
 ![infection jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/infection.jpg)
 
 
+Organisation graph, orthogonal configuration, YED :
 
+![infection jpg baloon](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/Organisation_final.png)
+
+Organisation graph, dot :
+
+![infection jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/organisation.jpg)
+
+
+Efficiciency graph, orthogonal configuration, YED :
+
+![infection jpg baloon](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/Efficiency-final.png)
+
+
+![infection jpg baloon](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/Efficiency-final-ballon.png)
+
+
+Efficiency graph, dot :
+
+![infection jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/efficiency.jpg)
 
 
 
