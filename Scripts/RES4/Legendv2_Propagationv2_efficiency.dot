@@ -1,0 +1,688 @@
+digraph "" {
+	graph [fontsize=80,
+		nodesep=1.5,
+		overlap=scalexy,
+		ranksep=1.2,
+		size="100,100"
+	];
+	{
+		graph [rank=same];
+		Psybot	[image="Psybot_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		ChuckNorris	[image="ChuckNorris_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=same];
+		Tsunami	[image="Tsunami_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=same];
+		Aidra	[image="Aidra_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Carna	[image="Carna_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		Bashlite	[image="Bashlite_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		Darlloz	[image="Darlloz_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Spike	[image="Spike_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		TheMoon1	[image="TheMoon1_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		Wifatch	[image="Wifatch_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=same];
+		XOR	[image="XOR_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=12,
+			penwidth=0,
+			shape=circle,
+			width=12];
+	}
+	{
+		graph [rank=same];
+		Elknot	[image="Elknot_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Remaiten	[image="Remaiten_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=same];
+		Hajime	[image="Hajime_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=12,
+			penwidth=0,
+			shape=circle,
+			width=12];
+	}
+	{
+		graph [rank=same];
+		Mirai	[image="Mirai_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=14,
+			penwidth=0,
+			shape=circle,
+			width=14];
+	}
+	{
+		graph [rank=same];
+		NewAidra	[image="NewAidra_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		LuaBot	[image="LuaBot_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=11,
+			penwidth=0,
+			shape=circle,
+			width=11];
+	}
+	{
+		graph [rank=same];
+		Amnesia	[image="Amnesia_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=12,
+			penwidth=0,
+			shape=circle,
+			width=12];
+	}
+	{
+		graph [rank=same];
+		IoTReaper	[image="IoTReaper_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Persirai	[image="Persirai_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		Satori	[image="Satori_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=max];
+		JenX	[image="JenX_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=max];
+		TheMoon2	[image="TheMoon2_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=max];
+		VPNFilter	[image="VPNFilter_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=12,
+			penwidth=0,
+			shape=circle,
+			width=12];
+	}
+	{
+		graph [rank=max];
+		HideNSeek	[image="HideNSeek_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=13,
+			penwidth=0,
+			shape=circle,
+			width=13];
+	}
+	{
+		graph [rank=same];
+		Echobot	[image="Echobot_efficiency.png",
+			fixedsize=True,
+			fontsize=0,
+			height=13,
+			penwidth=0,
+			shape=circle,
+			width=13];
+	}
+	Psybot -> Tsunami	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Bashlite	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Darlloz	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> TheMoon1	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Wifatch	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Hajime	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Hajime	[arrowtail=none,
+		color=purple,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Mirai	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Mirai	[arrowtail=none,
+		color=purple,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> LuaBot	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Amnesia	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Persirai	[arrowtail=none,
+		color=purple,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> VPNFilter	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> HideNSeek	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Psybot -> Echobot	[arrowtail=none,
+		color=gold,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> Tsunami	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> XOR	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> NewAidra	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> LuaBot	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> Satori	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> TheMoon2	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> VPNFilter	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> HideNSeek	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	ChuckNorris -> Echobot	[arrowtail=none,
+		color=brown,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> Wifatch	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> Remaiten	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> LuaBot	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> Amnesia	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> IoTReaper	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> TheMoon2	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> VPNFilter	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> HideNSeek	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Tsunami -> Echobot	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Aidra -> Darlloz	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Aidra -> Wifatch	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Aidra -> Remaiten	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Aidra -> Mirai	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Aidra -> JenX	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Spike -> Hajime	[arrowtail=none,
+		color=red,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Spike -> Mirai	[arrowtail=none,
+		color=red,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Spike -> IoTReaper	[arrowtail=none,
+		color=red,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Spike -> Satori	[arrowtail=none,
+		color=red,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Spike -> Echobot	[arrowtail=none,
+		color=red,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Elknot	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Hajime	[arrowtail=none,
+		color=burlywood,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Mirai	[arrowtail=none,
+		color=burlywood,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Mirai	[arrowtail=none,
+		color=sienna,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> LuaBot	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Amnesia	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Amnesia	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Satori	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> JenX	[arrowtail=none,
+		color=burlywood,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> JenX	[arrowtail=none,
+		color=sienna,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> VPNFilter	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> HideNSeek	[arrowtail=none,
+		color=burlywood,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> HideNSeek	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Echobot	[arrowtail=none,
+		color=burlywood,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Elknot -> Hajime	[arrowtail=none,
+		color=pink,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Remaiten -> Echobot	[arrowtail=none,
+		color=orangered,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Mirai -> VPNFilter	[arrowtail=none,
+		color=yellow,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+{
+    graph [rank = max]
+    node [shape=plaintext
+    height = 25,
+	  fontsize=60,
+	  width=20]
+    label = "Legend";
+    key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+        <tr><td align="right" port="i0">4.1.1</td></tr>
+<tr><td align="right" port="i1">4.1.2</td></tr>
+<tr><td align="right" port="i2">4.2.1</td></tr>
+<tr><td align="right" port="i3">4.2.2</td></tr>
+<tr><td align="right" port="i4">4.2.3</td></tr>
+<tr><td align="right" port="i5">4.3.1</td></tr>
+<tr><td align="right" port="i6">4.3.2</td></tr>
+<tr><td align="right" port="i7">4.3.3</td></tr>
+<tr><td align="right" port="i8">4.4.1</td></tr>
+<tr><td align="right" port="i9">4.4.2</td></tr>
+<tr><td align="right" port="i10">4.4.3</td></tr>
+<tr><td align="right" port="i11">4.5.1</td></tr>
+<tr><td align="right" port="i12">4.5.3</td></tr>
+<tr><td align="right" port="i13">4.5.7</td></tr>
+<tr><td align="right" port="i14">4.5.8</td></tr>
+<tr><td align="right" port="i15">4.5.9</td></tr>
+      </table>>]
+    key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+        <tr><td port="i0">&nbsp;</td></tr>
+<tr><td port="i1">&nbsp;</td></tr>
+<tr><td port="i2">&nbsp;</td></tr>
+<tr><td port="i3">&nbsp;</td></tr>
+<tr><td port="i4">&nbsp;</td></tr>
+<tr><td port="i5">&nbsp;</td></tr>
+<tr><td port="i6">&nbsp;</td></tr>
+<tr><td port="i7">&nbsp;</td></tr>
+<tr><td port="i8">&nbsp;</td></tr>
+<tr><td port="i9">&nbsp;</td></tr>
+<tr><td port="i10">&nbsp;</td></tr>
+<tr><td port="i11">&nbsp;</td></tr>
+<tr><td port="i12">&nbsp;</td></tr>
+<tr><td port="i13">&nbsp;</td></tr>
+<tr><td port="i14">&nbsp;</td></tr>
+<tr><td port="i15">&nbsp;</td></tr>
+      </table>>]
+    key:i0:e -> key2:i0:w [color=navy, style=bold, penwidth=10]
+key:i1:e -> key2:i1:w [color=burlywood, style=bold, penwidth=10]
+key:i2:e -> key2:i2:w [color=cyan, style=bold, penwidth=10]
+key:i3:e -> key2:i3:w [color=red, style=bold, penwidth=10]
+key:i4:e -> key2:i4:w [color=forestgreen, style=bold, penwidth=10]
+key:i5:e -> key2:i5:w [color=magenta, style=bold, penwidth=10]
+key:i6:e -> key2:i6:w [color=gold, style=bold, penwidth=10]
+key:i7:e -> key2:i7:w [color=springgreen, style=bold, penwidth=10]
+key:i8:e -> key2:i8:w [color=purple, style=bold, penwidth=10]
+key:i9:e -> key2:i9:w [color=orangered, style=bold, penwidth=10]
+key:i10:e -> key2:i10:w [color=sienna, style=bold, penwidth=10]
+key:i11:e -> key2:i11:w [color=grey, style=bold, penwidth=10]
+key:i12:e -> key2:i12:w [color=pink, style=bold, penwidth=10]
+key:i13:e -> key2:i13:w [color=yellow, style=bold, penwidth=10]
+key:i14:e -> key2:i14:w [color=brown, style=bold, penwidth=10]
+key:i15:e -> key2:i15:w [color=crimson, style=bold, penwidth=10]
+  }
+}

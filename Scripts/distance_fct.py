@@ -167,7 +167,7 @@ def genpng(G,name,layout):
     print("*******************")
     G.write(name+'-'+layout+'.dot')
     G.layout(layout)
-    G.draw(name+'-'+layout+'.jpg')
+    G.draw(name+'-'+layout+'.pdf')
 
 # function to generate the phylogenic graph
 def GrapheCommun4(sample,n):
@@ -199,7 +199,7 @@ def main():
     features = {}
     ParseCSV(sample,inputCSV,features)
     CalculDistance(sample)
-    CalculLimite(sample)
+    #CalculLimite(sample)
     AfficheLogiciel(sample,features)
     AfficheDistance(sample)
     CalculCommun(sample)

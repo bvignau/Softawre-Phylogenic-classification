@@ -138,34 +138,35 @@ def PropagationFeatures(sample,features, titre, circles):
     edgesC={}
     father=[]
     for f in features.values():
-        father = f.soft[:]
-        if dashed == False :
-            for fa in father :
-                circles[fa][COLOR[i]]=False # create circle around the software which create the feature
-        else :
-            f.dashed = True
-            for fa in father :
-                circles[fa][COLOR[i]]=True # create circle around the software which create the feature
-        father=f.soft[0]
-        for soft in f.softwares.keys(): # propagation of each features in each softwares
-            print(str(father))
-            fatherN = father
-            nodeN = soft
-            lab=f.nom
+        if len(f.soft) > 0 :
+            father = f.soft[:]
             if dashed == False :
-                if abs(float(sample[fatherN].date) - float(sample[nodeN].date)) > 0.06:
-                    G.add_edge(fatherN,nodeN,color=COLOR[i], style="bold", penwidth=5.5,arrowtail="none", labeldistance=20, labelfloat=True)
+                for fa in father :
+                    circles[fa][COLOR[i]]=False # create circle around the software which create the feature
             else :
                 f.dashed = True
-                if abs(float(sample[fatherN].date) - float(sample[nodeN].date)) > 0.06:
-                    G.add_edge(fatherN,nodeN,color=COLOR[i], style="dashed", penwidth=5.5,arrowtail="none", labeldistance=20, labelfloat=True)
-            #father=soft
-        edgesC[f]=COLOR[i]
-        if i < 18:
-            i+=1
-        else :
-            i = 0
-            dashed = True
+                for fa in father :
+                    circles[fa][COLOR[i]]=True # create circle around the software which create the feature
+            father=f.soft[0]
+            for soft in f.softwares.keys(): # propagation of each features in each softwares
+                print(str(father))
+                fatherN = father
+                nodeN = soft
+                lab=f.nom
+                if dashed == False :
+                    if abs(float(sample[fatherN].date) - float(sample[nodeN].date)) > 0.06:
+                        G.add_edge(fatherN,nodeN,color=COLOR[i], style="bold", penwidth=5.5,arrowtail="none", labeldistance=20, labelfloat=True)
+                else :
+                    f.dashed = True
+                    if abs(float(sample[fatherN].date) - float(sample[nodeN].date)) > 0.06:
+                        G.add_edge(fatherN,nodeN,color=COLOR[i], style="dashed", penwidth=5.5,arrowtail="none", labeldistance=20, labelfloat=True)
+                #father=soft
+            edgesC[f]=COLOR[i]
+            if i < 18:
+                i+=1
+            else :
+                i = 0
+                dashed = True
     print("*******************")
     filename=titre+".txt"
     fichier=open(filename,"w")
@@ -326,7 +327,6 @@ def create_shape(nom,size,color,date):
     turtle.reset()
 
 def main():
-   
     parser = argparse.ArgumentParser()
     parser.add_argument('fichier')
     args = parser.parse_args()

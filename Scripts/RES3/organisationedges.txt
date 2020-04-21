@@ -1,0 +1,6 @@
+key:i0:e -> key2:i0:w [color=navy, style=bold, penwidth=10]
+key:i1:e -> key2:i1:w [color=burlywood, style=bold, penwidth=10]
+key:i2:e -> key2:i2:w [color=cyan, style=bold, penwidth=10]
+key:i3:e -> key2:i3:w [color=red, style=bold, penwidth=10]
+key:i4:e -> key2:i4:w [color=forestgreen, style=bold, penwidth=10]
+key:i5:e -> key2:i5:w [color=magenta, style=bold, penwidth=10]

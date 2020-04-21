@@ -21,46 +21,44 @@ pip install cairosvg pygraphviz
 ### Installing
 
 To run our scripts, you need to create a csv file with a row for each feature and a column for each software. Put a 1 when software use a feature, 0 if not. The CSV seperator need to be ';'. The first column is the name of each features, the first row is the name of each software with its date, separate with a '-'. For example, see features.csv in the data folder.
-To run our scripts, just put all of them in a folder with csv file and use the following command.
-
-For the phylogenic graph :
-
-```
-python distance_fct.py file.csv
-```
-
-Our results : 
-
-features families V1: 
-
-
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Families-circular.svg)
-
-Features Families V2 :
-
-Radial layout
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Radial.svg)
-
-Baloon Layout
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/circular2.svg)
-
-
-Phylogenic graphe : 
-
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Max_Common_V4_15-dot.jpg)
+To run our scripts, just put all of them in a folder with csv file and use the following command. Please don't use space in the name of the malware or features.
 
 For features propagation :
 ```
 python features_propagation.py file.csv
 ```
-Our results : 
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_attack.jpg)
-![alt text](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/Graphes/Legendv2_Propagationv2_features.jpg)
 
-To generate features propagation graphes for multiples sample, put all csv files in the same folder and run
-```
-./all.sh
-```
+To process multiples files like us, put all csv files in the Scripts folder. Then execute the `all.sh` script. It will create all the composant to create a graph. Use the `order.sh` script to split the results. It will put the 'goal items' in the RES1 folder, the 'infection items' in RES2, 'organisation items' in RES3 and 'efficiency items' in RES4.
+
+To improve the readability of our graphs, we use the SVG items in a yed editor (https://www.yworks.com/yed-live/) and recreate the graph thaks to the dot file. If you want, png files are also availables.
+
+Our results : 
+
+All our graphs with differents layout are in the figure/graph directory. The figures/palette contains the fours palettes to recreate our graph in YED. The graphml of our files are in the graphml folder. 
+
+Goal graph, YED Version :
+
+![Goal jpg YED](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/Goal_final.png)
+
+Goal graph, dot Version :
+
+![Goal jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/goal.png)
+
+Infection graph, orhtogonal_router configuration, YED :
+
+![infection jpg router_ortho](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/infection_v2_ortho_router.png)
+
+Infection graph, baloon configuration, YED :
+
+![infection jpg baloon](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/infection_v2_ballon.png)
+
+Infection graph, dot :
+
+![infection jpg dot](https://github.com/bvignau/Softawre-Phylogenic-classification/blob/master/figures/infection.png)
+
+
+
+
 
 
 

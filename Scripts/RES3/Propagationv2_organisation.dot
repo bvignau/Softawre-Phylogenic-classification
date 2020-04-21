@@ -1,0 +1,526 @@
+digraph "" {
+	graph [fontsize=80,
+		nodesep=1.5,
+		overlap=scalexy,
+		ranksep=1.2,
+		size="100,100"
+	];
+	{
+		graph [rank=min];
+		Hydra	[color=Hydra_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Psybot	[color=Psybot_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		ChuckNorris	[color=ChuckNorris_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Tsunami	[color=Tsunami_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Aidra	[color=Aidra_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Bashlite	[color=Bashlite_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Spike	[color=Spike_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		TheMoon1	[color=TheMoon1_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		Wifatch	[color=Wifatch_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		XOR	[color=XOR_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Elknot	[color=Elknot_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Remaiten	[color=Remaiten_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Hajime	[color=Hajime_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Mirai	[color=Mirai_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		NewAidra	[color=NewAidra_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		LuaBot	[color=LuaBot_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Amnesia	[color=Amnesia_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		BrickerBot	[color=BrickerBot_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=8,
+			penwidth=0,
+			shape=circle,
+			width=8];
+	}
+	{
+		graph [rank=same];
+		IoTReaper	[color=IoTReaper_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Persirai	[color=Persirai_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Satori	[color=Satori_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=max];
+		JenX	[color=JenX_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=max];
+		TheMoon2	[color=TheMoon2_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=max];
+		VPNFilter	[color=VPNFilter_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=10,
+			penwidth=0,
+			shape=circle,
+			width=10];
+	}
+	{
+		graph [rank=max];
+		HideNSeek	[color=HideNSeek_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	{
+		graph [rank=same];
+		Echobot	[color=Echobot_organisation,
+			fixedsize=True,
+			fontsize=0,
+			height=9,
+			penwidth=0,
+			shape=circle,
+			width=9];
+	}
+	Hydra -> Psybot	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Psybot	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> ChuckNorris	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> ChuckNorris	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Tsunami	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Tsunami	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Aidra	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Aidra	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Bashlite	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Bashlite	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Spike	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Spike	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> XOR	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Elknot	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Remaiten	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Remaiten	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Mirai	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> NewAidra	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> NewAidra	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> LuaBot	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Amnesia	[arrowtail=none,
+		color=navy,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Amnesia	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> BrickerBot	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> IoTReaper	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Persirai	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Satori	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> JenX	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> TheMoon2	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> VPNFilter	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	Hydra -> Echobot	[arrowtail=none,
+		color=forestgreen,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	TheMoon1 -> Hajime	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	TheMoon1 -> HideNSeek	[arrowtail=none,
+		color=magenta,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Elknot	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Mirai	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> IoTReaper	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Persirai	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Satori	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> JenX	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> TheMoon2	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> VPNFilter	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> HideNSeek	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	XOR -> Echobot	[arrowtail=none,
+		color=cyan,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+	LuaBot -> VPNFilter	[arrowtail=none,
+		color=red,
+		labeldistance=20,
+		labelfloat=True,
+		penwidth=5.5,
+		style=bold];
+}
