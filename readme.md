@@ -93,5 +93,10 @@ Efficiency graph, dot :
 ## License
 
 This project is available for all research and educational purpose only.
+Always cite the authors and associated paper : 
+The evolution of IoT Malwares, from 2008 to 2019: Survey, taxonomy, process simulator and perspectives, 
+Benjamin Vignau and Raphaël Khoury and Sylvain Hallé and Abdelwahab Hamou-Lhadj
+Journal of Systems Architecture
+https://doi.org/10.1016/j.sysarc.2021.102143
 
 
